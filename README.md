@@ -33,11 +33,11 @@ The work flow consists of:
 
 ## Results
 
-![Confusion Matrix](images/matriz_de_confusion.png)
+<img src="images/matriz_de_confusion.png" alt="Confusion Matrix" width="350">
 
 The best model was an optimized KNN with K=1 and uniform weights, reaching an accuracy of 1.00 and an overall F1-score of 0.99 on th test data. By class, ABH-ABH and NS-NS scored 1.00 F1, while ABH-NS scored 0.98.
 
-![KNN Classification - Optimized Model](images/graph_output.png)
+<img src="images/graph_output.png" alt="KNN Classification - Optimized Model" width="650">
 
 The final model (K = 1) classifies events by combining the training distribution with the predictions on the mock data. Most events are calssifies as ABH-ABH, with a smaller number of ABH-NS and NS-NS predictions, consistent with the distribution seen in the training data.
 
@@ -46,9 +46,11 @@ Applied to the real observed events, the model classified (64 events) 75.3% as A
 <details>
   <summary>See training data distribution and initial predictions</summary>
 
-  ![Training Data Distribution](images/training_graph.png)
-  ![KNN Classifier Predictions](images/mock_graph.png)
-  ![Real Obserational Dataset Distribution](images/real_graph.png)
+  <img src="images/training_graph.png" alt="Training Data Distribution" width="500">
+  <br>
+  <img src="images/mock_graph.png" alt="KNN Classifier Predictions" width="500">
+  <br>
+  <img src="images/real_graph.png" alt="Real Observational Dataset Distribution" width="500">
   
 </details>
 
